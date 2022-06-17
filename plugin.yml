@@ -1,0 +1,14 @@
+name: ServerShop
+version: 1.0.2
+main: "me.kdot.servershop.Main"
+author: Ryan Kdot
+description: 
+api-version: 1.18
+depend: [Vault]
+commands:
+  shop:
+    permission: servershop.shop
+  sell:
+    permission: servershop.sell
+  servershop:
+    permission: servershop.admin
